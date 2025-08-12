@@ -20,9 +20,6 @@ myenv\Scripts\activate
 # Mac/Linux:
 source myenv/bin/activate
 
-# Then install streamlit
-pip install streamlit
-
 pip install pandas plotly-express  # For data visualization
 pip install mysql-connector-python  # For database connections
 
