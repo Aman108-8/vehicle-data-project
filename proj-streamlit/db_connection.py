@@ -9,10 +9,10 @@ def create_connection():
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            database='vehicle',
-            user='root',
-            password='ay704321.',
-            port=3306,
+            database='your database',
+            user='your user_name',
+            password='yourpassword.',
+            port='your port',
             auth_plugin='mysql_native_password',
             connect_timeout=5
         )
@@ -142,4 +142,5 @@ def execute_query(connection, query, params=None):
         
     finally:
         if 'cursor' in locals() and cursor:
+
             cursor.close()'''
