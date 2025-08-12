@@ -39,3 +39,5 @@ db_config = {
     'password': 'yourpassword',
     'database': 'vehicle_data'
 }
+
+## 4. then copy file of py and paste into myenv
