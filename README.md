@@ -9,6 +9,8 @@ Follow the steps below to set up the environment, import the database, and run t
 
 ```bash
 pip install streamlit
+pip install pandas plotly-express  # For data visualization
+pip install mysql-connector-python  # For database connections
 
 # Create virtual environment
 python -m venv myenv
@@ -19,9 +21,6 @@ myenv\Scripts\activate
 
 # Mac/Linux:
 source myenv/bin/activate
-
-pip install pandas plotly-express  # For data visualization
-pip install mysql-connector-python  # For database connections
 
 cd myenv
 
